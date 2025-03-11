@@ -35,10 +35,21 @@ html{
     line-height: 2.2rem;
 }
 
+
+#qualities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.2rem;
+}
+
+#qualities > img{
+    margin: 0 2.5rem;
+}
+
 .container{
     text-align: center;
-    padding: 10rem 7.5rem;
-    background: linear-gradient(180deg,#FFF,#d9d9d9);
+    padding: 5rem 7.5rem;
 }
 
 .container > img {
@@ -59,7 +70,6 @@ html{
 button{
    background-color: #F84646;
    color: #FFF;
-   font-weight: 800;
    font-size:1.5rem;
    padding:0.5rem 1.5rem;
    border-radius: 8px;
@@ -75,4 +85,60 @@ button{
 .container > button:hover{
     opacity: 0.8;
     transform: scale(1.1);
+}
+
+.background-gradient{
+    background: linear-gradient(180deg,#FFF,#d9d9d9);
+}
+
+.background-red{
+    background-color: #F84646;
+    color: #FFF;
+}
+
+.contact-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.article-container{
+    display: flex;
+}
+.article-container > img{
+    width: 100%
+}
+
+.article-container:nth-child(even){
+    flex-direction: row-reverse;
+    margin: 7.5rem 0 0 0  ;
+}
+
+.article-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    justify-content: space-between;
+    margin: 0 2.5rem 0 0;
+}
+
+.article-details > button{
+    font-size: 1.3rem;
+}
+
+.article-details > div > h2{
+    font-size: 4rem ;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.article-details > div > p{
+    font-size: 1.2rem ;
+    color: #808080;
+}
+
+
+.article-container:nth-child(even) > .article-details{
+    margin: 0 0 0 2.5rem;
 }
