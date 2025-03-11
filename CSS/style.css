@@ -9,12 +9,70 @@ html{
     color: #000
 }
 
-h1{
-    font-weight: 800;
-    font-size: 4rem;
+#presentation-container{
+    height: 100vh;
+    padding: 2.5rem 16rem 0 7.5rem;
+    background-image: url(../assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-p{
+#presentation{
+    width: 37.5rem;
+    position: relative ;
+    top: calc(50% - 9rem);
+}
+
+#presentation > h1{
+    font-weight: 800;
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+}
+
+#presentation > p{
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.28rem;
+    line-height: 2.2rem;
+}
+
+.container{
+    text-align: center;
+    padding: 10rem 7.5rem;
+    background: linear-gradient(180deg,#FFF,#d9d9d9);
+}
+
+.container > img {
+    margin: 0.5rem;
+}
+
+.container > h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.container > p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+button{
+   background-color: #F84646;
+   color: #FFF;
+   font-weight: 800;
+   font-size:1.5rem;
+   padding:0.5rem 1.5rem;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+}
+
+.container > button{
+    margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s .2s ;
+}
+
+.container > button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
 }
