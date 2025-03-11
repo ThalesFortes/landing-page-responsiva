@@ -1,0 +1,138 @@
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    #presentation > h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+    #presentation > p{
+        font-size: 0.9rem;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .container{
+        text-align: center;
+        padding: 5rem 5rem;
+    }
+
+    .container > p{
+        font-size: 0.9rem;
+    }
+    
+    .grid-container-companies{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
+    
+    .company-1{
+        grid-area: auto;
+    }
+    
+    .company-2{
+        grid-area: auto;
+    }
+    
+    .company-3{
+        grid-area: auto;
+    }
+    
+    .company-4{
+        grid-area: auto;
+    }
+    
+    .company-5{
+        grid-area: auto;
+    }
+    
+    .company-6{
+        grid-area: auto;
+    }
+    
+    .company-7{
+        grid-area: auto;
+    }
+    
+    .company-8{
+        grid-area: auto;
+    }
+    
+    .company-9{
+        grid-area: auto;
+    }
+    
+    .grid-item-companies{
+        display: flex;
+        height: 11rem;
+    }
+
+    .grid-item-companies > div > img{
+        width: 100%;
+    }
+
+    .article-container > img{
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    .article-container:nth-child(even){
+        margin: 5rem 0 0 0  ;
+    }
+    
+    .article-details{
+        margin: 0 2rem 0 0;
+    }
+    
+    .article-details > button{
+        font-size: 1rem;
+    }
+    
+    .article-details > div > h2{
+        font-size: 2rem ;
+    }
+
+    #presentation{
+        width: 30rem;
+    }
+
+    #presentation > p{
+        font-size: 1.1rem;
+    }
+
+    #presentation-container{
+        height: 100vh;
+        padding: 10rem 5rem 0 7.5rem;
+    }
+
+    .footer-list{
+        padding-left: 1.6rem;
+    }
+    
+    .footer-list > ul > li{
+        margin: 0 3rem 1rem 0;
+        font-size: 0.9rem;
+    }
+    
+    .footer-list > ul > li:first-child{
+        font-size: 1.1rem;
+    }
+
+    .footer-list > ul > li:last-child{
+        margin: 0;
+    }
+    
+    
+}
+    

@@ -44,12 +44,13 @@ h3{
     background-image: url(../assets/img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #presentation{
     width: 37.5rem;
-    position: relative ;
-    top: calc(50% - 9rem);
 }
 
 #presentation > h1{
@@ -125,7 +126,8 @@ h3{
     display: flex;
 }
 .article-container > img{
-    width: 100%
+    width: 50%;
+    object-fit: cover;
 }
 
 .article-container:nth-child(even){
@@ -143,11 +145,12 @@ h3{
 }
 
 .article-details > button{
+    margin-top: 1rem;
     font-size: 1.3rem;
 }
 
 .article-details > div > h2{
-    font-size: 4rem ;
+    font-size: 2.5rem ;
     font-weight: 600;
     padding-bottom: 2.5rem;
 }
@@ -175,15 +178,16 @@ h3{
     cursor: pointer;
 }
 
-.footer-list > ul > li:hover{
+.footer-list > ul > li:not(:first-child):hover{
     text-decoration: underline;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .footer-list > ul > li:first-child{
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    cursor: default;
 }
 
 .footer-list > ul > li:last-child{
