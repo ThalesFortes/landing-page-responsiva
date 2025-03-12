@@ -12,6 +12,20 @@
         font-size: 0.9rem;
     }
 
+    
+    #presentation{
+        width: 30rem;
+    }
+
+    #presentation > p{
+        font-size: 1.1rem;
+    }
+
+    #presentation-container{
+        height: 100vh;
+        padding: 10rem 5rem 0 7.5rem;
+    }
+
     .grid-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -103,18 +117,6 @@
         font-size: 2rem ;
     }
 
-    #presentation{
-        width: 30rem;
-    }
-
-    #presentation > p{
-        font-size: 1.1rem;
-    }
-
-    #presentation-container{
-        height: 100vh;
-        padding: 10rem 5rem 0 7.5rem;
-    }
 
     .footer-list{
         padding-left: 1.6rem;
