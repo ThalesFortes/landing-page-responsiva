@@ -1,4 +1,4 @@
-# Portfólio imáginario de um cliente
+# Landin page de uma consultoria
 
 Para rodar o programa basta baixar o código e clicar no index.
 
