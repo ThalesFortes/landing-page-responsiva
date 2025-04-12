@@ -1,13 +1,34 @@
-# Landin page de uma consultoria
+<h1 align="center" style="font-weight: bold;">Responsive Portfolio Page 💻</h1>
 
-Para rodar o programa basta baixar o código e clicar no index.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+</p>
 
-## Armazenamento e deploy
+<p align="center">
+    <b>- Consulting landing page, in order to use everything learned such as responsiveness, grids and flex templates, measures in rem and transitions.</b>
+    <b>- The page does not work the buttons since it was made for the practice of css and styling training.</b>
+</p>
 
-- Deploy foi feito pelo site Netlify [site](https://consultorias.netlify.app/)
+<p align="center">
+     <a href="https://consultorias.netlify.app/)">📱 Visit this Project</a>
+</p>
 
-### Funcionamento
+<h2 id="layout">🎨 Layout</h2>
 
-- Landing page de consultoria, com o intuito de utilizar tudo o aprendido como responsividade, grids e flex templates , medidas em rem e transiçoes.
-- A página não funciona os botões visto que foi feita para a pratica do css e treino de estilização
-  
+<p align="center">
+      <img src="./images/print1.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
+    <img src="./images/print2.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
+</p>
+
+<h2 id="technologies">💻 Technologies</h2>
+
+- HTML5
+- CSS3
+- NETLIFY
+
+
+<h2 id="started">🚀 Getting started</h2>
+
+- Just download the project with its assets and run it with liveserve or just by opening the html document
+
